@@ -1,0 +1,18 @@
+
+create table rcfs
+(
+UID int identity(1,1) primary key,
+Name nvarchar(50),
+Surname nvarchar(50),
+Adress nvarchar(250),
+City nvarchar(20),
+Pincode nvarchar(20),
+Mobile nvarchar(20),
+Email nvarchar(20),
+Password nvarchar(20),
+Gender nvarchar(50),
+EntryDate datetime
+)
+select * from rcfs;
+
+
